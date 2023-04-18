@@ -1,0 +1,22 @@
+{
+    "name": "laravelhelper/laravel-iide-helper",
+    "description": "A simple Laravel package with routes.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "laravel/framework": "^8.0 || ^9.0 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "laravelhelper\\LaravelIideHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laravelhelper\\LaravelIideHelper\\LaravelIideHelperServiceProvider"
+            ]
+        }
+    }
+}
